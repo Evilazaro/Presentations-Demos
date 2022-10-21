@@ -1,41 +1,17 @@
 ---
 layout: page
-title: Docsy Jekyll Theme
+title: Presentation Demos
 permalink: /
 ---
 
-# Welcome to Docsy Jekyll
+# Presentations Demos
 
-This is a starter template for a docsy jekyll theme.
+## Architecture Style
 
-![assets/img/docsy-jekyll.png](assets/img/docsy-jekyll.png)
+### Cloud Native Applications
 
-## Purpose
+Cloud native applications are built from the ground up—optimized for cloud scale and performance. They’re based on microservices architectures, use managed services, and take advantage of continuous delivery to achieve reliability and faster time to market.
 
-GitHub pages uses Jekyll natively, so when I make documentation, I typically
-look for Jekyll templates. Why? Using Jekyll means that I can use markdown,
-and allow for users to easily contribute, and build automatically just by
-way of pushing to a master branch (or general GitHub pages).
-I found Docsy, a beautiful Hugo template, but it requires hugo with GoLang
-which doesn't render natively on GitHub pages. For this reason, I've spent
-some time creating a custom Jekyll template that is (almost) as beautiful,
-and includes all the features that I might want.
-
-## Features
-
-What are these features? You should see the {% include doc.html name="Getting Started" path="getting-started" %}
-guide for a complete summary. Briefly:
-
- - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
- - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
- - *External Search* meaning an ability to link any page tag to trigger an external search.
- - *Documentation* A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
- - *Pages* A separate folder for more traditional pages (e.g, about).
- - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
- - *News* A posts feed for news and updates, along with an archive (organized by year).
- - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site
-
-
-For features, getting started with development, see the {% include doc.html name="Getting Started" path="getting-started" %} page. Would you like to request a feature or contribute?
-[Open an issue]({{ site.repo }}/issues)
+| Title                                                                                                                        | Description                                                                                                                                                                                                                                                                                                                                                                                                   | Solution Architecture                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Fabrikam Medical Conference App](https://github.com/Evilazaro/Cloud-Native-Applications "Fabrikam Medical Conference App")  | Fabrikam Medical Conferences provides conference web site services, tailored to the medical community. This App is a **multi-tenant** container-based web app hosting solution leveraging **Azure Kubernetes Service (AKS)**, Docker containers on Linux nodes, and **CosmosDB**.  | [Architecture](https://github.com/Evilazaro/Cloud-Native-Applications/blob/main/Hands-on%20lab/media/solution-topology.png "Architecture")  |
