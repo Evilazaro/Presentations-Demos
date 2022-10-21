@@ -6,11 +6,13 @@
     - title: PodCast
       url: "docs/versioning"
     - title: "Presentations Demos"
+      url: docs
 - title: Tips
   url: Tips
   links:
     - title: "Books"
-      url:
+      url: docs
     - title: "On-line Training"
-      url: 
+      url: docs
     - title: Youtube Videos
+      url: docs
