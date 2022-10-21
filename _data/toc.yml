@@ -1,25 +1,16 @@
-- title: Documentation
+- title: Technical Community Contributions
   url: docs
   links:
-    - title: "Getting Started"
+    - title: "On-line Presentations"
       url: "docs/getting-started"
-      children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: Versioning
+    - title: PodCast
       url: "docs/versioning"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
-  url: "docs/extras"
+    - title: "Presentations Demos"
+- title: Tips
+  url: Tips
   links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
-      url: "tags"
+    - title: "Books"
+      url:
+    - title: "On-line Training"
+      url: 
+    - title: Youtube Videos
